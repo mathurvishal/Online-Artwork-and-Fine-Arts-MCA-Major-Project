@@ -1,0 +1,9 @@
+<?php
+session_start(); 
+if(isset($_GET['id'])){
+$_SESSION["uid"]="";	
+unset($_SESSION["uid"]);
+header('Location:../customer/');
+}
+mysqli_close($con);	
+?>

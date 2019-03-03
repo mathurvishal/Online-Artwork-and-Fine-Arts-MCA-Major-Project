@@ -1,1 +1,1 @@
-# Online-Artwork-and-Fine-Arts-MCA-Major-Project
+# Online-Artwork-and-Fine-Arts

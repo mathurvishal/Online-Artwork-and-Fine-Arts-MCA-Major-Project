@@ -19,7 +19,7 @@
          <ul class="nav navbar-nav custom-navbar">
             <li class="active" ><a href="index.php">Home</a></li>
             <li><a href="index.php?page=customer_register">Customer Register</a></li>
-            <li><a href="index.php?page=Contactus">Contact us</a></li>
+            <li><a href="index.php?page=contactus">Contact us</a></li>
          </ul>
          <a href="#menu">
             <p class="custom-para">Login</p>

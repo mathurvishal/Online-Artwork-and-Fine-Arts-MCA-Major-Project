@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 02, 2019 at 04:54 PM
+-- Generation Time: Mar 14, 2019 at 01:33 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -39,7 +39,7 @@ CREATE TABLE `admin_info` (
 --
 
 INSERT INTO `admin_info` (`admin_id`, `admin_pwd`, `admin_name`, `email_id`, `admin_phone`) VALUES
-('admin', 'admin', 'Vishal Mathur', 'Vishal@gmail.com', 000000000);
+('admin', 'admin', 'Vishal Mathur', 'Vishal@gmail.com', 9899171714);
 
 -- --------------------------------------------------------
 
@@ -140,7 +140,7 @@ CREATE TABLE `customer_info` (
 --
 
 INSERT INTO `customer_info` (`cust_id`, `cust_pwd`, `cust_email`, `cust_Fname`, `cust_Lname`, `cust_sex`, `cust_phone`, `cust_state`, `cust_place`, `cust_address`) VALUES
-(1, '123456789', 'connect@vishalmathur.in', 'vishal', 'Mathur', 'Male', 00000000, 'Delhi', 'India', 'H-No: b 973, Street No. 8,, Nathu colony, Burari, '),
+(1, '123456789', 'connect@vishalmathur.in', 'vishal', 'Mathur', 'Male', 9899171714, 'Delhi', 'India', 'H-No: b 973, Street No. 8,, Nathu colony, Burari, '),
 (3, 'cust', 'BrockST@teleworm.in', 'Brock ', 'Stoate', 'Male', 4103916, 'Slovenia', 'Australian', 'Gosposka ulica 47 3225 Planina pri Sevnici'),
 (4, 'Password@123', 'ReinaldoALee@armyspy.com', 'Reinaldo', 'A. Lee', 'Male', 681193343, 'Austria', 'American', 'Marktplatz 69 5152 REITSBERG'),
 (5, 'Password@123', 'CarolinaWBrooks@teleworm.us', 'Carolina', 'W. Brooks', 'Female', 377515858, 'Ossona MI', 'Italy', 'Via San Cosmo fuori Porta Nolana, 28 20010-'),
@@ -299,7 +299,7 @@ ALTER TABLE `art_info`
 -- AUTO_INCREMENT for table `booking_info`
 --
 ALTER TABLE `booking_info`
-  MODIFY `bart_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `bart_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `customer_info`
 --
